@@ -1,0 +1,49 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "AnimTexturePro",
+	"Description": "Load animated GIF as a new AnimTexture2D asset type",
+	"Category": "Rendering",
+	"CreatedBy": "Animatrix Lab",
+	"CreatedByURL": "https://animatrixlab.github.io/",
+	"DocsURL": "https://animatrixlab.github.io/anim-texture-pro/",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "5.3.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "AnimTextureDecoder",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac",
+				"Android",
+				"IOS"
+			]
+		},
+		{
+			"Name": "AnimTexture",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac",
+				"Android",
+				"IOS"
+			]
+		},
+		{
+			"Name": "AnimTextureEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac"
+			]
+		}
+	]
+}
